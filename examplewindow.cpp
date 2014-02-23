@@ -30,6 +30,8 @@ ExampleWindow::~ExampleWindow()
 
 bool ExampleWindow::on_keypress(GdkEventKey* ev)
 {
+	std::cout << "Key: " << ev->keyval << std::endl;
+
 	// a0 a1 a2
 	// a3 a4 a5
 	// a6 a7 a8
